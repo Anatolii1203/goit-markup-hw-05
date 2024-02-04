@@ -526,3 +526,69 @@ img {
 .exercise-text-link {
   margin-right: 120px;
 }
+
+.form-footer {
+  margin-left: 80px;
+}
+
+.form-footer-p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.form-footer-f {
+  display: flex;
+  gap: 24px;
+}
+
+.form-footer-l {
+}
+
+.form-footer-i {
+  width: 264px;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 2;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.form-footer-i::placeholder {
+  color: #fff;
+}
+
+.form-footer-btn {
+  min-width: 165px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 4px;
+  background-color: #4d5ae5;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.form-footer-icons {
+  margin-left: 16px;
+}
+
+.form-footer-btn:hover,
+.form-footer-btn:focus {
+  background-color: #404bbf;
+}
