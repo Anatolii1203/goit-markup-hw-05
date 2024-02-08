@@ -487,7 +487,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-hidden">
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-btn" type="button">
           <svg class="modal-svg-close" width="8" height="8">
@@ -495,83 +495,43 @@
           </svg>
         </button>
         <p class="modal-p">Leave your contacts and we will call you back</p>
-        <form
-          class="contact-form"
-          name="contact-form"
-          autocomplete="off"
-          novalidate
-        >
+        <form class="contact-form">
           <div class="group-modal">
             <label class="form-label" for="user-name">Name</label>
-            <div class="form-icon">
-              <input
-                class="form-input"
-                type="text"
-                name="user-name"
-                id="user-name"
-              />
-              <svg class="icon-input" width="18" height="24">
-                <use href="./images/name.svg#icon-person.svg"></use>
-              </svg>
-            </div>
+            <input
+              class="form-input"
+              name="user-name"
+              type="text"
+              id="user-name"
+            />
+            <svg class="icon-input" width="18" height="24">
+              <use href="./images/name.svg#icon-person.svg"></use>
+            </svg>
           </div>
           <div class="group-modal">
-            <label class="form-label" for="user-tel">Phone</label>
-            <div class="form-icon">
-              <input
-                class="form-input"
-                type="tel"
-                name="user-tel"
-                id="user-tel"
-              />
-              <svg class="icon-input" width="18" height="24">
-                <use href="./images/Phone.svg#icon-phone.svg"></use>
-              </svg>
-            </div>
+            <label class="form-label" for="user-phone">Phone</label>
+            <input
+              class="form-input"
+              name="user-phone"
+              type="tel"
+              id="user-phone"
+            />
+            <svg class="icon-input" width="18" height="24">
+              <use href="./images/Phone.svg#icon-phone.svg"></use>
+            </svg>
           </div>
           <div class="group-modal">
             <label class="form-label" for="user-email">Email</label>
-            <div class="form-icon">
-              <input
-                class="form-input"
-                type="email"
-                id="user-email"
-                name="user-email"
-              />
-              <svg class="icon-input" width="18" height="24">
-                <use href="./images/Email.svg#icon-email.svg"></use>
-              </svg>
-            </div>
-          </div>
-          <div class="texterea-modal">
-            <label class="form-label" for="user-comment">Comment</label>
-            <textarea
-              class="form-textarea"
-              name="user-comment"
-              placeholder="Text input"
-              id="user-comment"
-            >
-            </textarea>
-          </div>
-          <div class="checkbox-form">
             <input
-              class="hidden-checkbox visually-hidden"
-              type="checkbox"
-              id="user-privacy"
-              value="true"
-              name="user-privacy"
+              class="form-input"
+              name="user-email"
+              type="email"
+              id="user-email"
             />
-            <label class="checkbox" for="user-privacy">
-              <span class="custom-checkbox">
-                <svg class="checkmark" width="10" height="8">
-                  <use href="./images/icons.svg#icon-checkmark.svg"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a class="form-link" href="">Privacy Policy</a>
-            </label>
+            <svg class="icon-input" width="18" height="24">
+              <use href="./images/Email.svg#icon-email.svg"></use>
+            </svg>
           </div>
-
           <button class="btn-modal" type="submit">Send</button>
         </form>
       </div>
