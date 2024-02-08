@@ -645,9 +645,8 @@ img {
 
 .modal-btn:hover,
 .modal-btn:focus {
-  fill: #ffffff;
-  border: none;
   background-color: #404bbf;
+  border: none;
 }
 
 .modal-svg-close {
@@ -682,6 +681,10 @@ img {
   margin-bottom: 8px;
 }
 
+.form-input:focus {
+  border-color: #4d5ae5;
+}
+
 .btn-modal {
   display: block;
   min-width: 169px;
@@ -699,6 +702,11 @@ img {
   margin-right: auto;
   margin-left: auto;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.btn-modal:hover,
+.btn-modal:focus {
+  fill: #ffffff;
 }
 
 .form-input {
